@@ -4,6 +4,8 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ICT
@@ -11,6 +13,14 @@ package com.mycompany.lab1;
 public class bai1 {
 
     public static void main(String[] args) {
-        // sinh viên code ở đây
+        Scanner sc=new Scanner(System.in);
+        String Ten;
+        double Diemtb;
+        System.out.println("Ho va ten: ");
+        Ten=sc.nextLine();
+        System.out.println("DiemTB");
+        Diemtb=sc.nextDouble();
+        //System.out.printf("ho va ten %s,diemtb %f",Ten,Diemtb);
+        System.out.println("ho ten: "+Ten+" "+"diem trung binh:"+Diemtb);
     }
 }
